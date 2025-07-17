@@ -1,0 +1,306 @@
+{
+  "name": "msc_udisk",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "folders": [
+      {
+        "name": "Application",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../src/gd32f30x_it.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../src/gd32f30x_usbd_hw.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../src/internal_flash_if.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../src/main.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../src/msc_mem.c"
+          }
+        ],
+        "folders": [
+          {
+            "name": "sdcard",
+            "files": [
+              {
+                "path": "../../inc/sdcard.c"
+              },
+              {
+                "path": "../../inc/gd32f30x_libopt.h"
+              },
+              {
+                "path": "../../inc/sdcard.h"
+              },
+              {
+                "path": "../../inc/gd32f30x_it.h"
+              },
+              {
+                "path": "../../inc/internal_flash_if.h"
+              },
+              {
+                "path": "../../inc/usbd_conf.h"
+              },
+              {
+                "path": "../../inc/usbd_hw.h"
+              },
+              {
+                "path": "../../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_sdio.c"
+              },
+              {
+                "path": "../../../../../Firmware/GD32F30x_standard_peripheral/Include/gd32f30x_sdio.h"
+              },
+              {
+                "path": "inc/usbd_sdcard_access.h"
+              },
+              {
+                "path": "usbd_sdcard_access.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../src/system_gd32f30x.c"
+          },
+          {
+            "path": "../../../../../Firmware/CMSIS/core_cm4.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Doc",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../readme.txt"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "GD32F30x_EVAL",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Utilities/gd32f303e_eval.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "GD32F30x_Peripherals",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_fmc.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_gpio.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_pmu.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_rcu.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_timer.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_usart.c"
+          },
+          {
+            "path": "../../../../../Firmware/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c"
+          },
+          {
+            "path": "../../../../../Firmware/GD32F30x_standard_peripheral/Include/gd32f30x_dma.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Startup",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/CMSIS/GD/GD32F30x/Source/IAR/startup_gd32f30x_hd.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USBD_Class",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/class/device/msc/Source/msc_bbb_scsi.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/class/device/msc/Source/msc_core.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USBD_Device",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/device/Source/usbd_core.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/device/Source/usbd_enum.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/device/Source/usbd_pwr.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/device/Source/usbd_transc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USBD_Drivers",
+        "files": [
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/usbd/Source/usbd_lld_core.c"
+          },
+          {
+            "path": "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/usbd/Source/usbd_lld_int.c"
+          }
+        ],
+        "folders": []
+      }
+    ],
+    "files": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": ".pack/GigaDevice/GD32F3x0_DFP.2.0.0",
+  "miscInfo": {
+    "uid": "260a13a937644240ec9dadbdbc046c44"
+  },
+  "targets": {
+    "USBD": {
+      "excludeList": [],
+      "toolchain": "IAR_ARM",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "archExtensions": "",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "${ToolchainRoot}/config/linker/GigaDevice/GD32F303xC.icf",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "gd32f303xc",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/usbd.pyocd.yaml",
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "${PROJ_DIR}/../../../../Firmware/CMSIS/GD/GD32F30x/Include",
+          "${PROJ_DIR}/../../../../Firmware/GD32F30x_standard_peripheral/Include",
+          "${PROJ_DIR}/../../../../Utilities",
+          "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/class/device/msc/Include",
+          "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/device/Include",
+          "${PROJ_DIR}/../../../../Firmware/GD32F30x_usbd_library/usbd/Include",
+          "${PROJ_DIR}/../inc",
+          "../../../../../Firmware/CMSIS",
+          "../../inc",
+          "../../../../../Firmware/GD32F30x_standard_peripheral/Source",
+          "../../../../../Firmware/GD32F30x_standard_peripheral/Include",
+          "..",
+          "../../src",
+          "../../MDK-ARM"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER",
+          "GD32F30X_HD"
+        ]
+      },
+      "builderOptions": {
+        "IAR_ARM": {
+          "version": 1,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "endian-mode": "little",
+            "runtime-lib": "full",
+            "printf-formatter": "auto",
+            "scanf-formatter": "auto",
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "none",
+            "destroy-cpp-static-object": true,
+            "language-c": "c99",
+            "language-cpp": "Extended-EC++",
+            "language-conformance": "IAR-extensions",
+            "floating-point-semantics": "strict",
+            "misc-controls": ""
+          },
+          "asm-compiler": {
+            "case-sensitive-user-symbols": true,
+            "defines": []
+          },
+          "linker": {
+            "output-format": "elf",
+            "auto-search-runtime-lib": true,
+            "perform-cpp-virtual-func-elimination": "enable",
+            "config-defines": [],
+            "LIB_FLAGS": [],
+            "misc-controls": ""
+          }
+        }
+      }
+    }
+  },
+  "version": "3.6"
+}
