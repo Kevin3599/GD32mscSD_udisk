@@ -257,7 +257,8 @@
           "../../../../../Firmware/GD32F30x_standard_peripheral/Include",
           "..",
           "../../src",
-          "../../MDK-ARM"
+          "../../MDK-ARM",
+          "../../../../../Utilities"
         ],
         "libList": [],
         "defineList": [

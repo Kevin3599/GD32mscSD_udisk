@@ -22,4 +22,23 @@ uint32_t sdcard_multi_blocks_write(uint8_t *pbuf,
 /* get SD card capacity */
 uint32_t sdcard_get_capacity(void);
 
+/* SDIO测试和日志记录功能 */
+/* 执行SDIO写入测试并记录日志 */
+uint32_t sdio_write_test_and_log(void);
+
+/* 将日志写入到内部Flash(U盘) */
+uint32_t write_log_to_udisk(const char* log_message);
+
+/* 格式化时间戳 */
+void format_timestamp(char* buffer, uint32_t size);
+
+/* 初始化SDIO测试功能 */
+void sdio_test_init(void);
+
+/* 运行定期SDIO测试 */
+void sdio_test_run_periodic(void);
+
+/* 创建日志文件 */
+uint32_t create_log_file(void);
+
 #endif /* USBD_SDCARD_ACCESS_H */
